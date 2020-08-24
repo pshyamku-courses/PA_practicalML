@@ -1,7 +1,6 @@
 ---
 title: "Predicting quality of exercise movements"
 author: "pshyamku-courses"
-date: "8/22/2020"
 output: 
   html_document: 
     keep_md: yes
@@ -26,7 +25,7 @@ cl <- makePSOCKcluster(detectCores(all.tests = FALSE, logical = TRUE))
 registerDoParallel(cl)
 ```
 
-# Download the data if needed and load it
+## Download the data if needed and load it
 
 
 ```r
